@@ -254,6 +254,42 @@ Todos os modelos transformer precisam ser adicionados como **Input** no Kaggle:
 
 ---
 
+## ❌ Análise: BERTimbau v5 Variações (2026-03-03)
+
+**Nenhuma variação superou o v4 (0.82073).** Resultados decepcionantes em todas as tentativas.
+
+| Variação | Score | Delta vs v4 |
+|----------|-------|-------------|
+| Gamma Search (γ=2.5) | 0.75574 | **-6.5%** |
+| LR Search (1e-5/3e-5) | 0.75508 | **-6.6%** |
+| Class Weights | 0.69238 | **-12.8%** |
+
+### Por que falharam?
+
+1. **Gamma γ=2.5:** Aumentar gamma focou demais nos exemplos difíceis, ignorando os fáceis
+2. **LR diferente:** Learning rate 2e-5 do v4 já era ótima para o dataset
+3. **Class Weights:** Pior resultado - Focal Loss já trata desbalanceamento, class weights é redundância prejudicial
+
+### Insight Chave
+
+> **Threshold Tuning é o diferencial do v4, não os hiperparâmetros de treino.**
+
+O v4 usou thresholds otimizados por classe:
+```python
+THRESHOLDS = {0: 0.50, 1: 0.50, 2: 0.50, 3: 0.50, 4: 0.50, 5: 0.30, 6: 0.25}
+```
+
+Classes 5 e 6 (minoria) têm thresholds mais baixos, aumentando recall nessas classes.
+
+### Lições Aprendidas
+
+- ❌ Não iterar sobre hiperparâmetros de treino quando já estão otimizados
+- ✅ Focar em **pós-processamento** (thresholds, calibração)
+- ❌ Class weights + Focal Loss = redundância que prejudica
+- ✅ γ=2.0 é o sweet spot para Focal Loss neste dataset
+
+---
+
 ## Configurações Recomendadas
 
 ### Fine-tuning básico
@@ -283,21 +319,32 @@ Todos os modelos transformer precisam ser adicionados como **Input** no Kaggle:
 
 | Modelo | Score | vs Baseline |
 |--------|-------|-------------|
-| **BERTimbau + Focal** | **0.79696** | **+2.3%** 🏆 |
-| ModernBERT | 0.68578 | -12% |
-| BERTimbau | 0.64319 | -17% |
-| BERT Multilingual | 0.56095 | -28% |
-| DistilBERT | 0.55229 | -29% |
+| **BERTimbau v4 + Threshold** | **0.82073** | **+5.4%** 🏆 |
+| BERTimbau + Focal | 0.79696 | +2.3% |
+| BERTimbau v5 (Gamma) | 0.75574 | -3.0% |
+| BERTimbau v5 (LR) | 0.75508 | -3.0% |
+| BioBERTpt | 0.72480 | -7.0% |
+| BERTimbau v5 (Class) | 0.69238 | -11.1% |
+| XLM-RoBERTa | 0.68767 | -11.7% |
+| ModernBERT | 0.68578 | -12.0% |
+| BERTimbau | 0.64319 | -17.4% |
+| BERT Multilingual | 0.56095 | -28.0% |
+| DistilBERT | 0.55229 | -29.1% |
 | BERTimbau + LoRA | 0.13261 | ❌ Falhou |
 | mDeBERTa + CW | 0.01008 | ❌ BUG |
 
-**Conclusão:** 🎉 **BERTimbau + Focal Loss superou o baseline TF-IDF (0.77885)!** Primeiro transformer a vencer.
+**Conclusão:** 🏆 **BERTimbau v4 + Threshold Tuning é o melhor modelo (0.82073)**
+
+**Insights v5:**
+- ❌ Variações de LR/Gamma não melhoram
+- ❌ Class weights + Focal Loss é redundância
+- ✅ Threshold tuning é o diferencial
 
 **Próximos passos:**
-1. Investigar por que LoRA falhou (0.13261)
-2. Testar BioBERTpt com Focal Loss
-3. Testar mDeBERTa SEM class weights
+1. Seed ensemble (3-5 seeds) com v4
+2. CV-based threshold estimation
+3. Testar alpha α weights no Focal Loss
 
 ---
 
-*Atualizado em: 23/02/2026*
+*Atualizado em: 03/03/2026*
