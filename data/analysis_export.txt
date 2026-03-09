@@ -1,0 +1,383 @@
+=== CHI2 TOP 10 POR CLASSE ===
+
+BI-RADS 0 (Incompleto):
+  chi2=   589.8  "cm as"
+  chi2=   325.0  "contornos parcialmente"
+  chi2=   324.5  "individualizados devido"
+  chi2=   322.8  "parcialmente individualizados"
+  chi2=   321.7  "individualizados"
+  chi2=   312.1  "devido sobreposição"
+  chi2=   294.7  "tecidual localizado"
+  chi2=   283.4  "sobreposição tecidual"
+  chi2=   272.3  "tecidual"
+  chi2=   267.2  "devido"
+
+BI-RADS 1 (Negativo):
+  chi2=  1125.0  "nódulos não"
+  chi2=   319.3  "lipossubstituídas não"
+  chi2=   246.8  "adiposas não"
+  chi2=    73.4  "mamografia não"
+  chi2=    73.0  "predominantemente adiposasnão"
+  chi2=    73.0  "adiposasnão"
+  chi2=    73.0  "adiposasnão se"
+  chi2=    48.8  "método não"
+  chi2=    38.4  "calcificações benignas"
+  chi2=    38.4  "benignas esparsas"
+
+BI-RADS 2 (Benigno):
+  chi2=   348.6  "nódulos não"
+  chi2=   294.1  "cm"
+  chi2=   262.3  "da mama"
+  chi2=   235.7  "de cm"
+  chi2=   225.9  "medindo"
+  chi2=   209.2  "nódulo"
+  chi2=   207.0  "lipossubstituídas não"
+  chi2=   203.4  "cerca"
+  chi2=   202.0  "cerca de"
+  chi2=   200.0  "no"
+
+BI-RADS 3 (Provavelmente Benigno):
+  chi2=   226.0  "calcificações puntiformes"
+  chi2=   211.4  "puntiformes"
+  chi2=   184.6  "puntiformes agrupadas"
+  chi2=   163.0  "da mama"
+  chi2=   157.2  "no"
+  chi2=   151.9  "cm"
+  chi2=   142.7  "quadrante"
+  chi2=   136.6  "nódulo"
+  chi2=   131.2  "mama"
+  chi2=   127.9  "medindo"
+
+BI-RADS 4 (Suspeito):
+  chi2=   456.9  "extensão"
+  chi2=   437.4  "extensão de"
+  chi2=   350.5  "amorfas"
+  chi2=   327.6  "calcificações amorfas"
+  chi2=   286.3  "localizadas"
+  chi2=   245.6  "com distribuição"
+  chi2=   241.4  "distribuição"
+  chi2=   229.7  "cm localizadas"
+  chi2=   224.5  "amorfas agrupadas"
+  chi2=   223.6  "localizadas no"
+
+BI-RADS 5 (Altamente Sugestivo):
+  chi2=   575.7  "nódulo espiculado"
+  chi2=   502.0  "espiculado medindo"
+  chi2=   466.0  "retração"
+  chi2=   458.8  "espiculado"
+  chi2=   457.6  "espiculada"
+  chi2=   363.3  "massa"
+  chi2=   342.1  "associado retração"
+  chi2=   308.9  "espiculado no"
+  chi2=   270.6  "retração espessamento"
+  chi2=   204.5  "irregular"
+
+BI-RADS 6 (Malignidade Comprovada):
+  chi2=  1384.8  "carcinoma"
+  chi2=  1161.9  "invasivo"
+  chi2=   877.8  "de carcinoma"
+  chi2=   874.9  "carcinoma mamário"
+  chi2=   780.9  "mamário invasivo"
+  chi2=   473.6  "carcinoma ductal"
+  chi2=   304.2  "grau"
+  chi2=   269.0  "espiculado"
+  chi2=   265.2  "invasivo não"
+  chi2=   259.5  "irregular"
+
+
+=== LOG-ODDS TOP 8 ENRIQUECIDOS ===
+
+BI-RADS 0 (Incompleto):
+  log2OR=+6.74  "manteve após"
+  log2OR=+6.42  "quadrantes medindo"
+  log2OR=+6.15  "cm as"
+  log2OR=+6.06  "cm linfonodo"
+  log2OR=+5.74  "nódulo acima"
+  log2OR=+5.42  "avaliação com"
+  log2OR=+5.42  "mlo medindo"
+  log2OR=+5.42  "caracterizada na"
+  Ausentes:
+  log2OR=-4.27  "adiposas calcificações"
+  log2OR=-4.21  "observam alterações"
+  log2OR=-4.02  "data não"
+  log2OR=-3.98  "que ultrassonografia"
+  log2OR=-3.89  "estável desde"
+
+BI-RADS 1 (Negativo):
+  log2OR=+6.24  "adiposas não"
+  log2OR=+6.06  "adiposasnão se"
+  log2OR=+6.06  "adiposasnão"
+  log2OR=+6.06  "predominantemente adiposasnão"
+  log2OR=+5.89  "método não"
+  log2OR=+5.63  "observam nódulos"
+  log2OR=+5.02  "nódulos não"
+  log2OR=+4.89  "heterogêneo ausência"
+  Ausentes:
+  log2OR=-6.86  "benignas"
+  log2OR=-6.86  "benignas esparsas"
+  log2OR=-6.85  "calcificações benignas"
+  log2OR=-6.77  "nódulos calcificações"
+  log2OR=-6.53  "lipossubstituídas calcificações"
+
+BI-RADS 2 (Benigno):
+  log2OR=+4.62  "adiposas calcificações"
+  log2OR=+3.19  "benignos"
+  log2OR=+2.95  "benignos pelo"
+  log2OR=+2.73  "mamográficos benignos"
+  log2OR=+2.73  "agrupadas linfonodo"
+  log2OR=+2.65  "lipossubstituídas calcificações"
+  log2OR=+2.65  "esparsas calcificações"
+  log2OR=+2.61  "significativas apenas"
+  Ausentes:
+  log2OR=-8.03  "espiculado"
+  log2OR=-7.34  "invasivo"
+  log2OR=-7.34  "nódulo espiculado"
+  log2OR=-7.12  "papila calcificações"
+  log2OR=-6.80  "limites imprecisos"
+
+BI-RADS 3 (Provavelmente Benigno):
+  log2OR=+7.31  "às horas"
+  log2OR=+7.31  "em meses"
+  log2OR=+7.16  "com cm"
+  log2OR=+6.80  "correlação ao"
+  log2OR=+6.80  "em 11"
+  log2OR=+6.80  "circular medindo"
+  log2OR=+6.58  "puntiformes monomórficas"
+  log2OR=+6.58  "puntiformes redondas"
+  Ausentes:
+  log2OR=-4.69  "adiposas calcificações"
+  log2OR=-3.88  "laudo não"
+  log2OR=-3.16  "data somente"
+  log2OR=-2.69  "apenas laudo"
+  log2OR=-2.43  "adiposas"
+
+BI-RADS 4 (Suspeito):
+  log2OR=+8.26  "doppler medindo"
+  log2OR=+8.26  "heterogêneas com"
+  log2OR=+8.00  "pleomórficas de"
+  log2OR=+8.00  "associa se"
+  log2OR=+8.00  "com fluxo"
+  log2OR=+7.48  "microlobulado medindo"
+  log2OR=+7.26  "agrupada extensão"
+  log2OR=+7.09  "desenvolvimento"
+  Ausentes:
+  log2OR=-3.96  "agrupadas linfonodo"
+  log2OR=-3.82  "observam alterações"
+  log2OR=-3.20  "laudo não"
+  log2OR=-2.98  "data não"
+  log2OR=-2.66  "esparsas não"
+
+BI-RADS 5 (Altamente Sugestivo):
+  log2OR=+9.87  "espiculada"
+  log2OR=+8.87  "massa"
+  log2OR=+8.87  "espiculado medindo"
+  log2OR=+8.55  "retração espessamento"
+  log2OR=+8.29  "associado retração"
+  log2OR=+7.97  "superfície"
+  log2OR=+7.97  "espiculado no"
+  log2OR=+7.87  "linfonodomegalias axilares"
+  Ausentes:
+  log2OR=-5.40  "observam alterações"
+  log2OR=-5.28  "data não"
+  log2OR=-4.36  "rastreamento achados"
+  log2OR=-3.92  "suspeitas as"
+  log2OR=-3.49  "rastreamento"
+
+BI-RADS 6 (Malignidade Comprovada):
+  log2OR=+11.23  "carcinoma mamário"
+  log2OR=+10.14  "mamário invasivo"
+  log2OR=+9.84  "invasivo"
+  log2OR=+9.60  "carcinoma"
+  log2OR=+9.47  "invasivo não"
+  log2OR=+9.47  "carcinoma ductal"
+  log2OR=+9.47  "resultado maligno"
+  log2OR=+9.47  "grau calcificações"
+  Ausentes:
+  log2OR=-4.33  "suspeitas as"
+  log2OR=-4.10  "data não"
+  log2OR=-3.81  "observam alterações"
+  log2OR=-3.10  "vasculares não"
+  log2OR=-2.96  "rastreamento achados"
+
+
+=== CONFUSAO VOCABULAR TOP 3 PARES ===
+
+Negativo x Benigno (dist=0.0827):
+  Compartilhados:
+    "não" -> c1=0.1998 | c2=0.1652
+    "análise" -> c1=0.1161 | c2=0.0853
+    "análise comparativa" -> c1=0.1160 | c2=0.0853
+    "comparativa" -> c1=0.1159 | c2=0.0853
+    "se" -> c1=0.0882 | c2=0.0842
+    "não se" -> c1=0.0878 | c2=0.0838
+    "observam" -> c1=0.0880 | c2=0.0835
+    "se observam" -> c1=0.0881 | c2=0.0835
+  Mais forte em 1:
+    "nódulos não" -> c1=0.0996 vs c2=0.0017
+    "lipossubstituídas não" -> c1=0.0392 vs c2=0.0008
+    "não" -> c1=0.1998 vs c2=0.1652
+    "para análise" -> c1=0.0820 vs c2=0.0493
+    "comparativa mamografias" -> c1=0.0818 vs c2=0.0492
+  Mais forte em 2:
+    "calcificações benignas" -> c1=0.0003 vs c2=0.0591
+    "benignas esparsas" -> c1=0.0003 vs c2=0.0591
+    "benignas" -> c1=0.0003 vs c2=0.0590
+    "calcificações" -> c1=0.0626 vs c2=0.1090
+    "esparsas" -> c1=0.0346 vs c2=0.0805
+
+Incompleto x Provavelmente Benigno (dist=0.1182):
+  Compartilhados:
+    "mama" -> c0=0.0871 | c3=0.0839
+    "da" -> c0=0.0829 | c3=0.0732
+    "da mama" -> c0=0.0798 | c3=0.0710
+    "não" -> c0=0.0794 | c3=0.0684
+    "no" -> c0=0.0617 | c3=0.0654
+    "de" -> c0=0.0577 | c3=0.0692
+    "cm" -> c0=0.0651 | c3=0.0560
+    "nódulo" -> c0=0.0578 | c3=0.0559
+  Mais forte em 0:
+    "cm as" -> c0=0.0428 vs c3=0.0041
+    "agrupadas calcificações" -> c0=0.0455 vs c3=0.0110
+    "rastreamentoachados" -> c0=0.0461 vs c3=0.0137
+    "clínica rastreamentoachados" -> c0=0.0460 vs c3=0.0137
+    "rastreamentoachados mamas" -> c0=0.0456 vs c3=0.0134
+  Mais forte em 3:
+    "data" -> c0=0.0111 vs c3=0.0434
+    "estável" -> c0=0.0010 vs c3=0.0299
+    "em" -> c0=0.0115 vs c3=0.0375
+    "puntiformes" -> c0=0.0030 vs c3=0.0245
+    "calcificações puntiformes" -> c0=0.0022 vs c3=0.0233
+
+Provavelmente Benigno x Suspeito (dist=0.1313):
+  Compartilhados:
+    "mama" -> c3=0.0839 | c4=0.0884
+    "da" -> c3=0.0732 | c4=0.0847
+    "da mama" -> c3=0.0710 | c4=0.0761
+    "de" -> c3=0.0692 | c4=0.0628
+    "no" -> c3=0.0654 | c4=0.0592
+    "cm" -> c3=0.0560 | c4=0.0786
+    "mama esquerda" -> c3=0.0549 | c4=0.0541
+    "esquerda" -> c3=0.0532 | c4=0.0531
+  Mais forte em 3:
+    "localizada" -> c3=0.0393 vs c4=0.0107
+    "estável" -> c3=0.0299 vs c4=0.0014
+    "assimetria" -> c3=0.0384 vs c4=0.0100
+    "focal" -> c3=0.0331 vs c4=0.0081
+    "assimetria focal" -> c3=0.0328 vs c4=0.0078
+  Mais forte em 4:
+    "extensão" -> c3=0.0070 vs c4=0.0456
+    "extensão de" -> c3=0.0069 vs c4=0.0428
+    "localizadas" -> c3=0.0139 vs c4=0.0460
+    "esparsas as" -> c3=0.0146 vs c4=0.0461
+    "amorfas" -> c3=0.0026 vs c4=0.0333
+
+
+=== PATTERN FREQ POR CLASSE ===
+
+        has_birads_explicito  has_nodulo_massa  has_calcificacao  has_assimetria  has_distorcao_arq  has_morf_benigna  has_morf_suspeita  has_morf_maligna  has_calc_benigna  has_calc_suspeita  has_benigno  has_maligno  has_negacao  has_retracao  has_espessamento  has_adenopatia  has_biopsia  has_acompanhamento  has_complementar  has_densidade  has_pos_cirurgico  has_quimio_neo
+target                                                                                                                                                                                                                                                                                                                                                                                     
+0                      0.007             0.700             0.069           0.267              0.030             0.275              0.039             0.002             0.025              0.077        0.943        0.016        0.959         0.000             0.003           0.018        0.008               0.013             0.018          0.703              0.011           0.000
+1                      0.003             0.368             0.114           0.025              0.020             0.003              0.000             0.003             0.000              0.114        0.007        0.026        0.999         0.000             0.000           0.029        0.000               0.006             0.006          0.885              0.004           0.000
+2                      0.003             0.315             0.086           0.045              0.014             0.061              0.004             0.000             0.016              0.091        0.990        0.025        0.999         0.000             0.003           0.030        0.012               0.016             0.012          0.800              0.024           0.000
+3                      0.013             0.662             0.107           0.320              0.035             0.467              0.014             0.001             0.035              0.133        0.940        0.032        0.975         0.003             0.003           0.029        0.024               0.199             0.105          0.776              0.020           0.000
+4                      0.014             0.621             0.070           0.103              0.042             0.238              0.220             0.065             0.117              0.435        0.916        0.033        0.972         0.014             0.023           0.089        0.042               0.051             0.061          0.874              0.014           0.000
+5                      0.000             0.966             0.034           0.069              0.103             0.172              0.483             0.552             0.000              0.241        0.862        0.069        0.966         0.345             0.345           0.310        0.034               0.000             0.103          0.897              0.034           0.000
+6                      0.022             0.800             0.044           0.244              0.311             0.178              0.511             0.333             0.000              0.311        0.867        0.756        0.933         0.111             0.044           0.244        0.733               0.044             0.156          0.600              0.022           0.067
+
+
+=== EXEMPLOS DE LAUDOS (mediana) ===
+
+BI-RADS 0 (Incompleto) - 55 palavras:
+Indicação clínica:
+rastreamento.
+Achados:
+Mamas densas pelo predomínio do tecido fibroglandular o que diminui a sensibilidade da mamografia.
+Assimetrias focais de aspecto nodular localizadas na junção dos quadrantes laterais bilateralmente.
+Calcificações benignas esparsas.
+Não se observam calcificações suspeitas agrupadas.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Mamografias anteriores não disponíveis para análise comparativa.
+
+
+BI-RADS 1 (Negativo) - 34 palavras:
+Indicação clínica:
+rastreamento.
+Achados:
+Mamas heterogeneamente densas, o que pode ocultar pequenos nódulos.
+Não se observam calcificações suspeitas.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Mamografias anteriores não disponíveis para análise comparativa.
+
+
+BI-RADS 2 (Benigno) - 40 palavras:
+Indicação clínica:
+ rastreamento.
+Achados:
+Mamas parcialmente lipossubstituídas.
+Calcificações benignas esparsas.
+Não se observam microcalcificações pleomórficas agrupadas.
+Linfonodo intramamário à direita.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Em relação ao exame de <DATA>, não se observam alterações significativas.
+
+
+BI-RADS 3 (Provavelmente Benigno) - 64 palavras:
+Indicação clínica:
+ rastreamento.
+Achados:
+Mamas parcialmente lipossubstituídas, com tecido fibroglandular remanescente denso e heterogêneo.
+Assimetria focal localizada na união dos quadrantes laterais da mama direita que persiste após estudo com compressão seletiva, estável desde <DATA>.
+Calcificações benignas esparsas.
+Não se observam calcificações suspeitas agrupadas.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Em relação ao exame de <DATA>, não se observam alterações significativas.
+
+
+BI-RADS 4 (Suspeito) - 61 palavras:
+Indicação clínica:
+ rastreamento.
+Achados:
+Mamas heterogeneamente densas, o que pode ocultar pequenos nódulos.
+Calcificações amorfas agrupadas na região periareolar/junção dos quadrantes laterais da mama direita e calcificações pleomórficas segmentares na junção dos quadrantes superiores da mama esquerda.
+Mama acessória no prolongamento axilar.
+Calcificações benignas esparsas.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Mamografias anteriores não disponíveis para análise comparativa.
+
+
+BI-RADS 5 (Altamente Sugestivo) - 61 palavras:
+Indicação clínica:
+ investigação de câncer de mama.
+Achados:
+Mamas densas pelo predomínio do tecido fibroglandular o que diminui a sensibilidade da mamografia.
+Calcificações benignas esparsas bilaterais.
+Lesão irregular, espiculada, associada a distorção arquitetural e retração cutânea adjacente, medindo cerca de 2,5 cm, localizada no quadrante superolateral profundo da mama esquerda.
+As regiões axilares não apresentam alterações significativas.
+Análise comparativa:
+Primeira mamografia.
+
+
+BI-RADS 6 (Malignidade Comprovada) - 75 palavras:
+Indicação clínica:
+ reavaliação de alteração observada à mamografia de <DATA>.
+Realizadas incidências craniocaudal e perfil, magnificadas e com compressão localizada na mama esquerda.
+Achados:
+Calcificações pleomórficas, agrupadas localizadas no quadrante superolateral da mama esquerda, sendo identificados dois grupamentos, um distando 5,0 cm do complexo areolopapilar e o outro, 3,0 cm.
+ Esses dois grupamentos foram submetidos a biópsia por mamotomia no dia <DATA>, com resultado de carcinoma ductal in situ (CDIS) de padrão plano ("clinging carcinoma").
+
+
+
+=== TERMOS EXCLUSIVOS TOP-200 ===
+
+BI-RADS 0 (Incompleto): ['cm as', 'contornos parcialmente', 'devido', 'devido sobreposição', 'esquerda calcificações', 'individualizados', 'individualizados devido', 'nódulo de', 'parcialmente individualizados', 'projeção', 'tecidual localizado']
+BI-RADS 1 (Negativo): ['adiposas não', 'alteração observada', 'apenas', 'apenas laudo', 'após estudo', 'arquitetural podendo', 'axilares de', 'caracterizada', 'clínica reavaliação', 'como', 'comparativa primeira', 'comparativa primeiro', 'compressão seletiva', 'data apenas', 'de alteração']
+BI-RADS 2 (Benigno): ['agrupadas linfonodo', 'algumas vasculares', 'alteração da', 'anterior', 'arquitetura', 'arquitetura habitual', 'bilaterais', 'cirúrgica', 'cirúrgica calcificações', 'da arquitetura', 'de manipulação', 'decorrente', 'decorrente de', 'direita as', 'esparsas algumas']
+BI-RADS 3 (Provavelmente Benigno): ['calcificações puntiformes', 'cm estável', 'com margens', 'controle', 'controle de', 'data calcificações', 'desde', 'desde data', 'estável em', 'ovalado com', 'puntiformes']
+BI-RADS 4 (Suspeito): ['amorfas', 'amorfas agrupadas', 'calcificações amorfas', 'calcificações grosseiras', 'cm distando', 'cm localizadas', 'com distribuição', 'com extensão', 'correspondeu', 'de calcificações', 'direcionada', 'distribuição', 'extensão', 'extensão de', 'grosseiras']
+BI-RADS 5 (Altamente Sugestivo): ['associada', 'associado retração', 'axilar direita', 'axilar esquerda', 'clínica rotina', 'cm associado', 'com calcificações', 'cutânea', 'cutâneo', 'da pele', 'da região', 'data destaca', 'de margens', 'de permeio', 'destaca']
+BI-RADS 6 (Malignidade Comprovada): ['achado', 'anexo', 'ao ultrassom', 'biopsiado', 'biopsy', 'biópsia', 'carcinoma', 'carcinoma ductal', 'carcinoma mamário', 'com diagnóstico', 'com resultado', 'core', 'core biopsy', 'data com', 'de carcinoma']

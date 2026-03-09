@@ -29,6 +29,7 @@
 | Stacking Meta-Learner | 0.73852 | Ensemble |
 | TF-IDF + LogReg | 0.72935 | TF-IDF |
 | BioBERTpt | 0.72480 | Transformers |
+| BERTimbau v5 (Seed Ensemble 5x) | 0.72135 | Transformers ⚠️ |
 | LogReg v3 | 0.71303 | TF-IDF |
 | TF-IDF + LightGBM | 0.70273 | TF-IDF |
 | TF-IDF + XGBoost | 0.69482 | TF-IDF |

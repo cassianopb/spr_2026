@@ -36,7 +36,7 @@ Ver [NEXT.md](NEXT.md) para estratégias detalhadas.
 |----------|---------|
 | `resubmit_bertimbau_v5_alpha_weights` | Testar α=0.3, 0.4 no Focal Loss |
 | `resubmit_bertimbau_v5_gamma_search` | Testar γ=1.5, 2.5, 3.0 |
-| `resubmit_bertimbau_v5_seed_ensemble` | Ensemble de 5 seeds |
+| ~~`resubmit_bertimbau_v5_seed_ensemble`~~ | ~~Ensemble de 5 seeds~~ → ✅ **0.72135** (regressão - investigar) |
 
 ### LLMs Médicos (Experimental)
 | Notebook | Modelo |
@@ -63,6 +63,7 @@ Ver [NEXT.md](NEXT.md) para estratégias detalhadas.
 - **Tratamento de texto** com v5 (piorou -2%)
 - **Label Smoothing alto** → prejudica threshold tuning
 - **MAX_LEN=512** → timeout (relatórios são curtos)
+- **5 seeds x 3 épocas** → 0.72135 (pior que baseline de TF-IDF!) — investigar caminho do modelo
 
 ---
 
@@ -71,5 +72,6 @@ Ver [NEXT.md](NEXT.md) para estratégias detalhadas.
 | Mês | Total | Melhorias | Regressões | Falhas |
 |-----|-------|-----------|------------|--------|
 | Fev | 42+ | 2 | 10 | 7 |
+| Mar | 1 | 0 | 1 | 0 |
 
 **Taxa de sucesso:** ~20% das resubmissões melhoraram ou mantiveram
