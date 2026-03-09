@@ -13,6 +13,7 @@
 | 3 | Super Ensemble v1 | 0.78729 | Ensemble |
 | 4 | Ensemble Soft Voting | 0.78049 | Ensemble |
 | 5 | TF-IDF + LinearSVC | 0.77885 | TF-IDF |
+| BERTimbau v5 (Ensemble+Threshold) | 0.77385 | Transformers |
 | 6 | Custom Transformer | 0.77272 | Custom |
 | 7 | LinearSVC v4 | 0.77244 | TF-IDF |
 | 8 | SGDClassifier v3 | 0.77036 | TF-IDF |
