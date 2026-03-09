@@ -72,6 +72,6 @@ Ver [NEXT.md](NEXT.md) para estratégias detalhadas.
 | Mês | Total | Melhorias | Regressões | Falhas |
 |-----|-------|-----------|------------|--------|
 | Fev | 42+ | 2 | 10 | 7 |
-| Mar | 2 | 0 | 2 | 0 |
+| Mar | 3 | 0 | 3 | 0 |
 
 **Taxa de sucesso:** ~20% das resubmissões melhoraram ou mantiveram

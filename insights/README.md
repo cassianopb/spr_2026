@@ -11,6 +11,7 @@
 | 🏆 | **BERTimbau v4 (Threshold Tuning)** | **0.82073** | Transformers |
 | 2 | BERTimbau + Focal Loss | 0.79696 | Transformers |
 | 3 | Super Ensemble v1 | 0.78729 | Ensemble |
+| Super Ensemble v3 (Threshold) | 0.78660 | Ensemble |
 | 4 | Ensemble Soft Voting | 0.78049 | Ensemble |
 | 5 | TF-IDF + LinearSVC | 0.77885 | TF-IDF |
 | BERTimbau v5 (Ensemble+Threshold) | 0.77385 | Transformers |
